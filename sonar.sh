@@ -1,5 +1,6 @@
 #! /bin/bash
 #Launch an instance with 9000 and t2.medium
+yum install java-21-amazon-corretto-jmods -y
 cd /opt/
 wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-8.9.6.50800.zip
 unzip sonarqube-8.9.6.50800.zip
